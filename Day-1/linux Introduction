@@ -1,0 +1,17 @@
+what is linux : 
+Linux is an operating system, like macOS or Windows.
+
+It is also the most popular Open Source operating system, and it gives you a lot of freedom.
+
+how to install windows subsystem for linux 
+open power shell as administrator and run WSL -- install 
+
+####
+Linux Commands : 
+man whoami
+ls
+clear (ctrl+l)
+pwd
+ls -la
+ls -ltr
+cd - Chages the shell working directory
