@@ -15,3 +15,16 @@ pwd
 ls -la
 ls -ltr
 cd - Chages the shell working directory
+cd .. ( back to the home folder)
+cd ~ (homedirectory)
+cd / (root)
+mkdir 
+mkdir -p (create nested folders inside the directory)
+touch (create a file)
+ls  -l (listing the files)
+rmdir (To delete the empty directory)
+rm (to remove the file)
+rm -v filename (to give the status)
+rm -r directoryname (to delete the directory with the content inside it)
+rm -rv direcorty name/ (to delete the directory with the content)
+rm -ri directoryname/ (it will ask to delete the files inside the directoy)
