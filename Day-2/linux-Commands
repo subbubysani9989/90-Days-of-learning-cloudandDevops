@@ -1,0 +1,13 @@
+open filename or directoryname(to open any folder or directory)
+mv (rename the file)
+mv -v filename  ( to give outout what is done)
+man mv (to give the list)
+mv sourcefile  destination file (to change the directory from one directory to other directory)
+cp (copying the files form directory to other directory)
+head filename (gives top 10 lines)
+head filename -n100(to specify howmanylines required)
+tail filename(give last 10lines)
+date 
+date > filenanme (redirecting)
+date >> filename (redirectig and appending)
+cat filename ( to print the contents inside the file)
