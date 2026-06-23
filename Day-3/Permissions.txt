@@ -1,0 +1,52 @@
+read -r 
+write -w
+execute -x
+The most essential Linux commands for managing file permissions and ownership are chmod (change mode), chown (change owner), and chgrp (change group). Together, they control who can read (r), write (w), or execute (x) files and directories. [1, 2, 3, 4] 
+## Viewing Current Permissions
+Before changing permissions, use the long-list command to inspect them: [5] 
+
+* ls -l – Lists files, showing permissions, owner, and group. [6] 
+
+------------------------------
+## chmod — Change File & Directory Permissions [1] 
+You can modify permissions using Absolute (Numeric/Octal) mode or Symbolic (Letter) mode. [7] 
+## 1. Common Numeric Shortcuts (Absolute Mode)
+Numeric values represent absolute states: 4 = Read, 2 = Write, 1 = Execute. The three digits represent User (Owner), Group, and Others. [7, 8, 9] 
+
+* chmod 755 script.sh – Safe standard for executables; owner gets full access, others can read/execute.
+* chmod 644 document.txt – Standard for non-executable files; owner can read/write, others can only read.
+* chmod 600 private.txt – Strict privacy; only the owner can read and write.
+* chmod 777 public.txt – Full open access; highly discouraged due to major security risks.
+* chmod -R 755 /path/to/folder – Recursively applies permissions to a folder and all its contents. [10, 11, 12, 13, 14, 15, 16] 
+
+## 2. Common Letter Shortcuts (Symbolic Mode)
+Symbolic mode targets specific tiers using operators (+ to add, - to remove, = to explicitly set). [7, 17] 
+
+* Categories: u (user/owner), g (group), o (others), a (all).
+* chmod +x script.sh – Makes a script executable for everyone.
+* chmod u+x script.sh – Makes a script executable only for the owner.
+* chmod g-w file.txt – Removes write permissions for the group.
+* chmod o-rwx file.txt – Strips all permissions from external users (others). [7, 15, 16, 17, 18, 19] 
+
+------------------------------
+## chown & chgrp — Change Ownership [1, 20] 
+You must use sudo for these commands if you do not have root administrative privileges. [21, 22, 23, 24] 
+
+* sudo chown john report.txt – Changes the owner of the file to the user "john".
+* sudo chown john:developers report.txt – Changes the owner to "john" and the group to "developers" simultaneously.
+* sudo chown -R john:developers /var/www – Recursively changes user and group ownership for an entire directory tree.
+* sudo chgrp developers report.txt – Changes only the group ownership to "developers". [3, 6, 25, 26, 27] 
+
+------------------------------
+## Quick Reference Table [28] 
+
+| Target Action [3, 7, 10, 11, 12, 13, 15] | Command | Resulting Permissions |
+|---|---|---|
+| Make script runnable | chmod +x file.sh | Anyone can execute |
+| Protect private key | chmod 600 id_rsa | Only owner can read/write |
+| Share web directory | chmod 755 public_html | Owner can edit; world can browse |
+| Reset text file | chmod 644 notes.txt | Owner edits; others read |
+| Transfer file owner | sudo chown admin file.txt | Changes owner to "admin" |
+
+------------------------------
+
