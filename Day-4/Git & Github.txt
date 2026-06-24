@@ -1,0 +1,28 @@
+git --version(to know the version details)
+git init
+git clone
+ls -la (to find the hidden directories and permissions)
+git status (to check what all are the changes happend so far)
+git add . (it save the change inside the present working directory)
+git add -- all (it save all the changes)> save means staging
+git add -A ( it saves all the changes)
+git reset (come back to unstage again)
+git add *(it stages only the modified and newly added files it excepts deleted files)
+
+Commit : 
+working directory > Stage >commit> local repository
+
+git commit -m ""
+git reset HEAD~(undo the last commit)
+
+Remove : 
+
+git rm filename (it deletes and stages )
+git reset --hard (birng back  the deleted files )
+git rm -f filename (forcefully delete the unstaged changes)
+git rm -r filename/directory (to remove the Recursively)
+
+checking the commit history : 
+
+git log 
+
