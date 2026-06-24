@@ -43,3 +43,5 @@ git stash pop ( to restores the unfinished work to bring back most recent one)
 git stash apply(to restores the most recent one)
 git stash list(it givest the stash list ID)
 git stash pop stash@{1} (list id you can get while runnin stashlist commands)
+git push origin main
+git pull 
