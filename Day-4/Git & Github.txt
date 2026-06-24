@@ -25,4 +25,21 @@ git rm -r filename/directory (to remove the Recursively)
 checking the commit history : 
 
 git log 
+git log --oneline
 
+Branching : 
+
+git branch (to create the branches)
+git checkout (to change the branches)
+git merge development -m "message" (to merge from development to main)
+
+Merge Conflicts : 
+git merge staging (if we have same content inside the same branches)
+git merge development 
+
+git checkout commitid (come back to the previous commits)
+git stash ( to save your unfinished work)
+git stash pop ( to restores the unfinished work to bring back most recent one)
+git stash apply(to restores the most recent one)
+git stash list(it givest the stash list ID)
+git stash pop stash@{1} (list id you can get while runnin stashlist commands)
