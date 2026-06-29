@@ -1,0 +1,45 @@
+Here are 3 real-world, storage-focused Bash scripting projects you can build right now.
+These projects are highly relevant because they connect your existing 4 years of storage experience with your new DevOps automation skills, which will look incredible on your resume.
+------------------------------
+## Project 1: Automated Storage Health Monitor
+The Scenario: DevOps teams need to know if a server is running out of disk space before it crashes.
+
+* What the script does:
+1. Runs the df -h command to check disk utilization.
+   2. Uses awk and grep to filter out systems that are more than 85% full.
+   3. Prints a warning message to the terminal or appends it to a log file (/var/log/storage_alert.log).
+* DevOps Skills Learned: Text processing, conditional logic (if/else), and log management.
+
+------------------------------
+## Project 2: Automated Directory Backup & Archive Utility
+The Scenario: Before making changes to a production system, you must back up configuration files or logs.
+
+* What the script does:
+1. Takes a source folder path as an input argument.
+   2. Uses the tar command to compress the folder into a .tar.gz archive.
+   3. Adds a timestamp to the filename (e.g., backup_2026_06_27.tar.gz).
+   4. Automatically deletes archives older than 7 days using the find command to save storage space.
+* DevOps Skills Learned: Variable management, date formatting, and file system cleanup tools.
+
+------------------------------
+## Project 3: Server Onboarding & User Setup Script
+The Scenario: When a new engineer joins Jio, a DevOps script should automatically set up their environment instead of doing it manually.
+
+* What the script does:
+1. Reads a list of new usernames from a text file.
+   2. Uses a for loop to automatically create those user accounts using useradd.
+   3. Generates a random temporary password for each user.
+   4. Automatically creates a specific home directory path and sets correct file permissions using chmod and chown.
+* DevOps Skills Learned: Loops, file reading, and Linux security/permissions.
+
+------------------------------
+## How to showcase these to recruiters:
+Once you write these scripts, do not just leave them on your laptop.
+
+   1. Create a GitHub repository named devops-bash-automation.
+   2. Upload the scripts.
+   3. Write a clear README.md file explaining what the script does and how to run it.
+
+When you start interviewing, this proves you didn't just watch videos—it proves you can write code that solves production infrastructure problems.
+Would you like me to write out the actual code template for Project 1 (Storage Health Monitor) so you can test it on your system today?
+
