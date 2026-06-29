@@ -1,0 +1,64 @@
+Here is your structured, month-by-month DevOps learning roadmap exclusively using high-quality Coursera courses. [1, 2] 
+Since you have 4 years of storage administration experience, this track skips absolute-beginner material and focuses heavily on Enterprise Automation and Infrastructure as Code (IaC).
+------------------------------
+## Month 1: Linux Administration & Version Control (Git)
+Your Goal: Master the terminal, write production-ready automation scripts, and manage your code repositories.
+
+* Course 1: [Hands-on Introduction to Linux Commands and Shell Scripting](https://www.coursera.org/learn/hands-on-introduction-to-linux-commands-and-shell-scripting) (by IBM)
+* Focus: Command-line navigation, file management, piping commands, and writing basic Bash automation scripts. [3, 4, 5] 
+* Course 2: [Version Control with Git](https://www.coursera.org/learn/version-control-with-git) (by Atlassian)
+* Focus: Branching, merging, resolving conflicts, and managing code workflows in an enterprise team setting. [6, 7] 
+
+------------------------------
+## Month 2: Systems, Networking & Programming Foundations
+Your Goal: Understand how modern web networks operate and learn Python for heavy automation tasks.
+
+* Course 3: [Computer Networking](https://www.coursera.org/learn/computer-networking) (by Georgia Institute of Technology)
+* Focus: Routing protocols, SDN (Software Defined Networking), network security, and architecture.
+* Course 4: [Python for Data, AI & Development](https://www.coursera.org/learn/python-for-applied-data-science-ai) (by IBM)
+* Focus: Python syntax, logic, data structures, and how to write clean logic scripts (critical for advanced DevOps tasks). [8, 9, 10, 11, 12] 
+
+------------------------------
+## Month 3: Cloud Engineering Foundations (AWS or Azure)
+Your Goal: Transfer your data center storage expertise into cloud infrastructure.
+
+* Course 5: AWS Cloud Technical Essentials (by AWS)
+* Focus: Core AWS compute (EC2), storage (S3, EBS, EFS), networking (VPC), and identity management (IAM).
+* Course 6: Architecting on AWS Specialization (by AWS)
+* Focus: Designing highly available, scalable, resilient, and fault-tolerant storage and compute architectures on the cloud. [13] 
+
+------------------------------
+## Month 4: Containers & Microservices (Docker & Kubernetes)
+Your Goal: Learn how to package, deploy, and manage distributed applications.
+
+* Course 7: [Introduction to Containers w/ Docker, Kubernetes & OpenShift](https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift) (by IBM)
+* Focus: Creating Dockerfiles, building container images, managing container storage volumes, and local debugging. [14] 
+* Course 8: [Getting Started with Google Kubernetes Engine](https://www.coursera.org/learn/google-kubernetes-engine) (by Google Cloud)
+* Focus: Deploying containerized apps, managing persistent storage links inside clusters, and scaling production workloads. [15, 16] 
+
+------------------------------
+## Month 5: Infrastructure as Code (IaC) & Configuration Management
+Your Goal: Learn to write code that automatically spins up entire infrastructures, networks, and storage components.
+
+* Course 9: Infrastructure as Code (IaC) with Terraform (by Boarding Pass / Guided Project)
+* Focus: Hands-on creation of Terraform configuration files to build and destroy cloud components systematically.
+* Course 10: [Configuration Management and the Cloud](https://www.coursera.org/learn/configuration-management-cloud) (by Google)
+* Focus: Automation at scale, managing system configurations, and automated deployments. [17, 18] 
+
+------------------------------
+## Month 6: CI/CD Pipelines & Site Reliability Engineering (SRE)
+Your Goal: Tie everything together into an automated release pipeline and learn how to monitor systems.
+
+* Course 11: [Introduction to DevOps and Software Engineering](https://www.coursera.org/learn/intro-to-devops) (by IBM)
+* Focus: Continuous Integration/Continuous Deployment (CI/CD) concepts, testing automation, and deployment strategies. [19, 20, 21] 
+* Course 12: DevOps Practice: SRE and Monitoring (by IBM)
+* Focus: System visibility, checking application health, error budgets, alerts, and tracking infrastructure logs.
+
+------------------------------
+## Strategy for Success While "On the Bench" at Jio
+
+   1. Set a Daily Goal: Dedicate 4 hours every day during your work shift directly to these courses.
+   2. Combine the Certificates: Create a dedicated "Licenses & Certifications" section on your LinkedIn profile. As you finish each course, post the Coursera certificate immediately to signal to recruiters that you are actively transforming your skill set. [22] 
+   3. Build a Github Account: For every single lab or code snippet you write in these courses, upload it to GitHub to build your proof of work.
+
+Would you like me to show you how to blend your 4 years of storage experience with these new Coursera skills on your resume once you reach Month 3?
